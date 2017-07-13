@@ -1,0 +1,9 @@
+.item {
+  border-bottom: #DDD solid 1px;
+  padding: 15px 0;
+}
+
+.item:last-child {
+  border: 0;
+  padding-bottom: 0;
+}

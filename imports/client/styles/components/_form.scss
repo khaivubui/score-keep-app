@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+}
+
+.form__input {
+  border: 0;
+  border-bottom: 1px solid #AAA;
+  flex-grow: 1;
+  margin-right: 30px;
+  outline: none;
+  &:focus {
+    background: #eafaf1;
+  }
+}
