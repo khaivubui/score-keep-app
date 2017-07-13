@@ -5,13 +5,30 @@
 }
 
 .player__name {
+  color: #27ae60;
   font-weight: 700;
+  flex-grow: 1;
+}
+
+.player__position {
+  width: 10%;
+  margin-right: 20%;
+  padding-left: 10px;
 }
 
 .player__position, .player__stats {
+  color: #777;
   font-weight: 300;
 }
 
-.player__actions {
+.player__position-1 {
+  border-left: 3px solid gold;
+}
 
+.player__position-2 {
+  border-left: 3px solid silver;
+}
+
+.player__position-3 {
+  border-left: 3px solid #CD7F32;
 }

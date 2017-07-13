@@ -4,9 +4,11 @@ import { Players } from './../../imports/api/players';
 
 export class Player extends React.Component {
   render() {
+    let positionClassName = `player__position player__position-${this.props.player.rank}`;
+
     return (
       <div className="item player">
-        <div className="player__position">
+        <div className={positionClassName}>
           {this.props.player.position}
         </div>
         <div className="player__name">
