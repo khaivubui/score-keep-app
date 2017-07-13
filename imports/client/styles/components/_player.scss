@@ -5,7 +5,6 @@
 }
 
 .player__name {
-  color: #27ae60;
   font-weight: 700;
   flex-grow: 1;
 }
@@ -23,12 +22,15 @@
 
 .player__position-1 {
   border-left: 3px solid gold;
+  padding-left: 7px;
 }
 
 .player__position-2 {
   border-left: 3px solid silver;
+  padding-left: 7px;
 }
 
 .player__position-3 {
   border-left: 3px solid #CD7F32;
+  padding-left: 7px;
 }
